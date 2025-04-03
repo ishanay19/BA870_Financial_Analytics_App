@@ -11,15 +11,25 @@ Displays results in interactive visual dashboards.
 sentiment-stock-app/
 │
 ├── data/                   # Store raw data (optional, avoid large files)
+
 ├── models/                 # Any saved models (e.g., finetuned sentiment model)
+
 ├── utils/                  # Helper scripts (e.g., sentiment.py, fetch_data.py)
+
 ├── app/                    # Streamlit app components
+
 │   ├── dashboard.py        # Main Streamlit UI
+
 │   ├── sentiment_engine.py # Sentiment analysis functions
+
 │   └── stock_data.py       # Stock price fetching functions
+
 ├── requirements.txt        # Python dependencies
+
 ├── .env                    # API keys and secrets
+
 ├── config.yaml             # Config file for easy param tweaks
+
 └── README.md               # Project overview
 
 - WHAT FINANCIAL ANALYTICS PROBLEM DO YOU PLAN TO SOLVE?
